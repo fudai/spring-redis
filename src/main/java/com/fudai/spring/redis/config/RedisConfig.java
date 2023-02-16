@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2009-2023 fudai,Inc.All Rights Reserved.
  *
- * @fileName: RedisClusterConfig
+ * @fileName: RedisConfig
  * @package: com.fudai.spring.redis.config
  * @date: 2023-02-16 16:09
  * @version: V1.0
@@ -16,13 +16,13 @@ import org.springframework.data.redis.serializer.JdkSerializationRedisSerializer
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 /**
- * @className: RedisClusterConfig
- * @description:
+ * @className: RedisConfig
+ * @description: Redis配置
  * @author: fudai
  * @date: 2023-02-16 16:09
  */
 @Configuration
-public class RedisClusterConfig {
+public class RedisConfig {
 
     @Bean
     public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory redisConnectionFactory) {

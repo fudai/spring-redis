@@ -10,14 +10,13 @@ package com.fudai.spring.redis.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.TimeUnit;
 
 /**
  * @className: RedisClient
- * @description:
+ * @description: Redis客户端
  * @author: fudai
  * @date: 2023-02-16 16:11
  */
